@@ -25,8 +25,10 @@ KAFKA_TOPIC=new-location-received
 GEOJSON_PATH=./config_areas.geojson
 CSV_PATH=./movimentacoes.csv
 
+Insira os certificados do diretorios /certificados
 
 Para iniciar o monitoramento:
 - node index.js
+
 
 

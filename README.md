@@ -20,8 +20,8 @@ Instale as dependências:
 
 
 Configure o arquivo .env com base no .env.example:
-KAFKA_BROKER=integra.spocws.icu:443
-KAFKA_TOPIC=new-location-received
+KAFKA_BROKER=kafka-broker
+KAFKA_TOPIC=kafka-topic
 GEOJSON_PATH=./config_areas.geojson
 CSV_PATH=./movimentacoes.csv
 
@@ -29,6 +29,7 @@ Insira os certificados do diretorios /certificados
 
 Para iniciar o monitoramento:
 - node index.js
+
 
 
 

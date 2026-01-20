@@ -12,7 +12,7 @@ Pré-requisitos
 
 
 Instalação
-- Clone o repositório: git clone https://github.com/seu-usuario/projeto-geofencing.git
+- Clone o repositório: git clone https://github.com/wellscorp/projeto-geofencing.git
 - cd projeto-geofencing
 
 Instale as dependências:
@@ -28,4 +28,5 @@ CSV_PATH=./movimentacoes.csv
 
 Para iniciar o monitoramento:
 - node index.js
+
 
